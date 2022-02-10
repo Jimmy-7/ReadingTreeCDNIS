@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadingTree</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="LOGO.png" alt="logo" />
+            <h4>CDNIS Reading Tree</h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="upcoming_events.html">UPCOMING EVENTS</a>
+            </li>
+            <li>
+                <a href="social_media.html">SOCIAL MEDIA</a>
+            </li>
+            <li>
+                <a href="communication.html">ATTENDANCE</a>
+            </li>
+        </ul>
+
+    </nav>
+    <style>
+        .responsiveCal {
+        position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+        }
+         
+        .responsiveCal iframe {
+        position: absolute; top:0; left: 0; width: 100%; height: 100%;
+        }
+        
+        @media all and (min-width: 768px) {
+            .deskContent {display:block;}
+            .phoneContent {display:none;}
+        }
+        
+        @media all and (max-width: 767px) {
+            .deskContent {display:none;}
+            .phoneContent {display:block;}
+        }
+        </style>
+        <div class="responsiveCal">
+        <div class="deskContent"><iframe src="https://calendar.google.com/calendar/embed?src=c_700r17ahq2b7lmapekv0m94b3k%40group.calendar.google.com&ctz=Asia%2FHong_Kong" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          </div>
+</body>
+
+</html>
